@@ -1,0 +1,18 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install dependencies",
+      "command": "npm install"
+    }
+  ],
+  "tasks": {
+    "build": {
+      "name": "Build application",
+      "command": "npm run build",
+      "preview": {
+        "port": 3000,
+        "prLink": "direct"
+      }
+    }
+  }
+}
