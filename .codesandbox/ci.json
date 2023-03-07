@@ -1,4 +1,5 @@
 {
+  "node": "16",
   "sandboxes": [
     "react"
   ]
